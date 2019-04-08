@@ -6,7 +6,7 @@ The PECL mbstring extension is required.
 
 ### On an debian based server
 
-```sudo apt install php-redis php-mbstring php-mysql```
+```sudo apt install php-redis php-mbstring php-mysql php-curl```
 
 
 ### Enabling file uploads
