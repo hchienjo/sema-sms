@@ -121,6 +121,7 @@ class HomeController extends Controller
     public function scheduled(Request $request){
         $jobs = Job::orderBy('deletedAt', 'DESC')
             ->whereRaw('userID IN (SELECT id FROM users WHERE company_id = ?)', [Auth::user()->company_id])
+            ->whereRaw('LENGTH(identifier) > 9')
             ->whereIn('type', [1,2,3])
             ->simplePaginate(15);
         return view('dashboard.scheduled',[
