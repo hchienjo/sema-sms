@@ -484,7 +484,7 @@ a.button:hover {
   }
 
 .bg_main {
-  background-image: url(/images/bg_abs.jpg);
+  background-image: url(/images/g2.jpg);
   height: 100%;
   background-attachment: fixed;
   background-size: cover;
@@ -492,7 +492,7 @@ a.button:hover {
 }
 
 .bg_login {
-  background-image: url(/images/bg_abs.jpg);
+  background-image: url(/images/g1.jpg);
   height: 100%;
   background-attachment: fixed;
   background-size: cover;
