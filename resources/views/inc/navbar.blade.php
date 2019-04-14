@@ -6,7 +6,7 @@ class="navbar navbar-expand-md navbar-dark fixed-top">
         <span class="hamburger-inner"></span>
       </span>
     </button>
-    <a class="navbar-brand m-0 p-0" onclick="window.location = '/'" style="cursor: pointer;"><img class="pl-4 main_logo" src="{{ asset('images/sema.png') }}"></a>
+    <a class="navbar-brand m-0 p-0" onclick="window.location = '/'" style="cursor: pointer;"><img class="pl-4 main_logo" src="{{ asset('images/logo-lt.png') }}"></a>
     <ul class="navbar-nav px-3 w-100">
       <li class="nav-item m-auto row d-flex justify-content-center align-items-center">
         <span class="sys-time col-sm-6 text-center mr-0 p-0 row d-flex justify-content-center">
