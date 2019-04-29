@@ -62,7 +62,7 @@ class OrganizationsController extends Controller
         ]);
 
         $key = 'units.' . $request->organizationID;
-        $new = Redis::incrby($key, $request->amount);
+        $new = Redis::incrbyfloat($key, $request->amount);
 
         $identifier = bin2hex(openssl_random_pseudo_bytes(8));
 
