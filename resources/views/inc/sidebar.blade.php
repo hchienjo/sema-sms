@@ -12,6 +12,14 @@
         @auth()
             @if(Auth::user()->user_group == 1)
                 <li>
+                    <a href="{{ route('content.index') }}">
+                        <div class="icon-container p-2" style="font-size: 1.2rem; display: flex; flex-direction: row; justify-content: left; align-items: center;">
+                            <span class="ti-email mt-0"></span>
+                            <span class="icon-name mt-1"> Content</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
                     <a href="{{ route('config') }}">
                         <div class="icon-container p-2" style="font-size: 1.2rem; display: flex; flex-direction: row; justify-content: left; align-items: center;">
                             <span class="ti-settings mt-0"></span>
@@ -53,7 +61,7 @@
                 </div>
             </a>
         </li>
-        <!-- <li>
+        <li>
             <a href="{{ route('express.outbox') }}">
                 <div class="icon-container p-2" style="font-size: 1.2rem; display: flex; flex-direction: row; justify-content: left; align-items: center;">
                     <span class="ti-layout-media-right mt-0"></span>
