@@ -11,11 +11,11 @@
         </div>
         <div class="card-body">
             <div class="pb-3">
-                <a href="{{ route('service.add') }}">
+                <!-- <a href="{{ route('service.add') }}">
                     <a href="{{ route('service.upload', ['productID' => $productID, 'serviceName' => $serviceName]) }}">
                         <button class="btn btn-primary" id="addGroup"> Upload Subscribers <i class="fa fa-plus ml-1"></i></button>
                     </a>
-                </a>
+                </a> -->
                 <div class="row mt-3">
                 </div>
                 <div class="table-responsive">
